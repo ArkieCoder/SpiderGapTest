@@ -1,0 +1,14 @@
+{
+  "name": "spidergap-test",
+  "version": "1.0.0",
+  "description": "Test for employment with SpiderGap",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd tests && tape *.js"
+  },
+  "author": "Jason Reeves",
+  "license": "ISC",
+  "dependencies": {
+    "tape": "^4.8.0"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "organization": "Cavendish Consultants",
+    "offices": [
+      {
+        "coordinates": "51.5,-0.2"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "organization": "Ziggurat Development Corp",
+    "offices": [
+      {
+        "coordinates": "51.5,-0.3"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "organization": "Lancashire Heavy Industries",
+    "offices": [
+      {
+        "coordinates": "51.5,-0.4"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "organization": "Podunk Feed and Tack",
+    "offices": [
+      {
+        "coordinates": "34.171111,-92.59"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "organization": "Brussels Sprouts and Shouts",
+    "offices": [
+      {
+        "coordinates": "50.850450,4.348780"
+      }
+    ]
+  }
+]
