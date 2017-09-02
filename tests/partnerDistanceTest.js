@@ -51,7 +51,10 @@ test('partnerDistance.getPartnerNamesWithinDistance', function (t) {
 });
 
 test('partnerDistance.minDistanceFromHQ', function (t) {
-  t.equal(partnerDistance.minDistanceFromHQ(testPartnerOffices), 4.422344034176655, 'returns minimum distance from HQ');
+  t.equal(
+    partnerDistance.minDistanceFromHQ(testPartnerOffices).toFixed(5),
+    Number(4.422344034176655).toFixed(5),
+    'returns minimum distance from HQ');
   t.end();
 });
 
@@ -71,18 +74,18 @@ test('partnerDistance.calculateDistanceBetweenPoints', function (t) {
   var point2 = { lat: 52, lon: 3 };
   var point3 = { lat: 45, lon: 2 };
   t.equal(
-    partnerDistance.calculateDistanceBetweenPoints(point1, point2),
-    262.73981556343716,
+    partnerDistance.calculateDistanceBetweenPoints(point1, point2).toFixed(5),
+    Number(262.73981556343716).toFixed(5),
     'calculates distance'
   );
   t.equal(
-    partnerDistance.calculateDistanceBetweenPoints(point2, point3),
-    781.8230428289393,
+    partnerDistance.calculateDistanceBetweenPoints(point2, point3).toFixed(5),
+    Number(781.8230428289393).toFixed(5),
     'calculates distance'
   );
   t.equal(
-    partnerDistance.calculateDistanceBetweenPoints(point3, point1),
-    561.0121876805938,
+    partnerDistance.calculateDistanceBetweenPoints(point3, point1).toFixed(5),
+    Number(561.0121876805938).toFixed(5),
     'calculates distance'
   );
   t.end();
